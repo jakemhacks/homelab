@@ -1,7 +1,6 @@
 # My Homelab Setup
 
 ## About
----
 This is my homelab setup. It is ever-changing, but I plan to keep up with my changes and updates here.
 I have this lab for a few reasons:
 1. Learn Linux at a deep level.
@@ -12,7 +11,6 @@ I have this lab for a few reasons:
 6. A place for the random project ideas I come up with.
 
 ## Hardware
----
 ### Main PC:
 I converted my old gaming PC into a daily driver and the main component of this home lab.
 - Operating System: Arch Linux
