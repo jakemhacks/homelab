@@ -22,8 +22,8 @@ I am also downloading System and Development Tools right off the bat.
     - How to troubleshoot it
     - And what exactly it does
 
-2. Cockpit - All I know is that it;s a browser-based admin too. Seems interesting to learn.
-3. Wireshark - Being that this will most likely become a server of some sort, I might as well get some wireshark and packet analysis practice in.
+2. Cockpit - All I know is that it's a browser-based admin too. Seems interesting to learn.
+3. tcpdump - Being that this will most likely become a server of some sort, I might as well get some packet analysis practice in.
 4. My last goal is to learn and get experience in the Red Hat ecosystem.
 
 ---
@@ -45,4 +45,4 @@ SO... I had to manually install the EPEL repository:
 Which then enabled me to install htop (and neofetch because it's fun).
 Obviously, this wouldn't be so haphazardly done in an enterprise environment, but I wanted to figure out what was up.
 
-![htop works](rhelscreenshots/htopworks)
+![htop works](rhelscreenshots/htopworks.png)
