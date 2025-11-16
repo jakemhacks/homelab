@@ -21,4 +21,4 @@ I chose GRUB because I am familiar with it and it's customization. That's really
 4. The rest of the setup I just followed the menu.
 
 Below is a screenshot of the setup:
-![computer configuration screenshot](../screenshots/system-overview.png)
+![computer configuration screenshot](../screenshots/sysoverview.png)
