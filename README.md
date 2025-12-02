@@ -20,6 +20,8 @@ I converted my old gaming PC into a daily driver and the main component of this 
 - Disk 1: NVMe M.2 1TB SSD - (Root and Boot)
 - Disk 2: NVMe M.2 2TB SSD - (Home)
 
+![system overview](sysoverview.png)
+
 ### Auxillary Hardare
 - Raspberry Pi 5 16GB, 16BG RAM, 128GB SSD
 - Raspberry Pi 1080p Monitor
