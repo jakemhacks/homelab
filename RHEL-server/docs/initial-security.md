@@ -29,7 +29,10 @@ Our final score was 63%, and from what I remember from school; that's a failure.
 
 Scrolling down on the report, which is save in the /tmp folder as an html file, we can see all of the specific tests that our system failed. We are then provided with information on how to fix these filed tests.
 
-This took quiete a while to work through, several days, so I am not going to go through all of the details. However, I will list a few that were made.
+This took quiete a while to work through, several days, so I am not going to go through all of the details. I also did not go through all 197 fixes as this is just practice using SCAP and system hardening tools.
+However, I will list a few that were made before moving on the the next task.
+
+## CIS Hardening
 - AIDE (Advnaced Intrusion Detection Environment) - File and Directory Integrity Utility
     creates a database of system files and uses that to verify integrity.
     configured to run weekly via cron job.
