@@ -26,3 +26,5 @@ I converted my old gaming PC into a daily driver and the main component of this 
 - Raspberry Pi 5 16GB, 16BG RAM, 128GB SSD
 - Raspberry Pi 1080p Monitor
 - Operating System: Raspberry Pi OS Lite (no GUI)
+Currently I have this running as an SDR base station.
+I have an RTL-SDR Blog V4 and am monitoring with SDR++.
