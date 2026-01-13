@@ -21,6 +21,7 @@ I converted my old gaming PC into a daily driver and the main component of this 
 - Disk 2: NVMe M.2 2TB SSD - Virtual Machine and Docker Containers
 
 ### Home Lab Architecture
+```
 -nvme1n1p1
 |
 | Networking
@@ -44,7 +45,7 @@ I converted my old gaming PC into a daily driver and the main component of this 
 | Docker Containers
 | |
 | | DVWA - Damn Vulnerable Web App
-
+```
 ### Hardware Lab
 I am currently experimenting/learning about hardware programming and hacking.
 **3x ESP32 WROOM SoC devkit boards.**
