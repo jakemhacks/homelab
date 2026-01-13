@@ -48,6 +48,7 @@ I converted my old gaming PC into a daily driver and the main component of this 
 ```
 ### Hardware Lab
 I am currently experimenting/learning about hardware programming and hacking.
+
 **3x ESP32 WROOM SoC devkit boards.**
 I am using these to learn about programming devices to interface and manipulate RF signals, mainly WiFi and Bluetooth.
 
