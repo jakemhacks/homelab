@@ -13,18 +13,59 @@ I have this lab for a few reasons:
 ## Hardware
 ### Main PC:
 I converted my old gaming PC into a daily driver and the main component of this home lab.
-- Operating System: Arch Linux
+- Operating System: Debian 13 Stable "Trixie"
 - Desktop Environment: KDE Plasma
 - CPU: AMD Ryzen 7 3700X 16-Core
 - GBU: Nvidia GeForce RTX 2070 Super
-- Disk 1: NVMe M.2 1TB SSD - (Root and Boot)
-- Disk 2: NVMe M.2 2TB SSD - (Home)
+- Disk 1: NVMe M.2 1TB SSD - Host OS and Daily Files
+- Disk 2: NVMe M.2 2TB SSD - Virtual Machine and Docker Containers
 
-![system overview](sysoverview.png)
+### Home Lab Architecture
+-nvme1n1p1
+|
+| Networking
+| |
+| | pfsense VM
+|
+| QEMU/KVM Virtual Machines
+| |
+| | Attack Systems
+| | |
+| | | Kali Linux
+| | |
+| | | Parrot Security
+| | 
+| | Victim Systems
+| | |
+| | | Metasploitable
+| | |
+| | | Windows 11
+|
+| Docker Containers
+| |
+| | DVWA - Damn Vulnerable Web App
+
+### Hardware Lab
+I am currently experimenting/learning about hardware programming and hacking.
+**3x ESP32 WROOM SoC devkit boards.**
+I am using these to learn about programming devices to interface and manipulate RF signals, mainly WiFi and Bluetooth.
+
+**5x AiTrip Digispark Attiny Micro USB dev boards**
+I am using these to learn how to write usb payloads that run automatically when a usb device is plugged into a computer. Basically a home-build rubber ducky.
+
 
 ### Auxillary Hardare
+
+**Wireless/Physical Pentesting Tools**
+- Flipper Zero with WiFi dev board - my first device that got me addicted to wireless security!
+- JCMK Marauder Dual Touch v.3
+- Pineapple Pager with GPS
+
+**Radio Lab**
 - Raspberry Pi 5 16GB, 16BG RAM, 128GB SSD
 - Raspberry Pi 1080p Monitor
 - Operating System: Raspberry Pi OS Lite (no GUI)
-Currently I have this running as an SDR base station.
-I have an RTL-SDR Blog V4 and am monitoring with SDR++.
+This is currently running as a Software Defined Radio basestation.
+I currently have both a telescopic antenna for ease of use, as well as a wideband discone antenna set up in my backyard. I have a 65ft. coax cable running from that to the raspberry pi/rtl-sdr.
+
+- Heltec Automation ESP32 V3 Mesh Radio Node
